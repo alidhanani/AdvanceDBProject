@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AA7AB0B6747ED7E8C15564 /* Pods_AdvanceDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E3AC7E13234A9EF0E3EFF7 /* Pods_AdvanceDBTests.framework */; };
+		52BDC5AB4550F0904EC65275 /* Pods_AdvanceDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E2B92D4F372537C8EA706 /* Pods_AdvanceDB.framework */; };
+		E7E873528482990CDC149A8A /* Pods_AdvanceDB_AdvanceDBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 245C9FA18CF97726C6E7145E /* Pods_AdvanceDB_AdvanceDBUITests.framework */; };
+		FF7135F62572A0E10064236F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7135F52572A0E10064236F /* AppDelegate.swift */; };
+		FF7135F82572A0E10064236F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7135F72572A0E10064236F /* SceneDelegate.swift */; };
+		FF7135FA2572A0E10064236F /* DecidePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7135F92572A0E10064236F /* DecidePage.swift */; };
+		FF7135FD2572A0E10064236F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7135FB2572A0E10064236F /* Main.storyboard */; };
+		FF7135FF2572A0E50064236F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF7135FE2572A0E50064236F /* Assets.xcassets */; };
+		FF7136022572A0E50064236F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7136002572A0E50064236F /* LaunchScreen.storyboard */; };
+		FF71360D2572A0E50064236F /* AdvanceDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF71360C2572A0E50064236F /* AdvanceDBTests.swift */; };
+		FF7136182572A0E50064236F /* AdvanceDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7136172572A0E50064236F /* AdvanceDBUITests.swift */; };
+		FF7136292572A1620064236F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF7136282572A1620064236F /* GoogleService-Info.plist */; };
+		FF71364C2572AB3B0064236F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF71364B2572AB3B0064236F /* LoginVC.swift */; };
+		FF7136512572AB4D0064236F /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7136502572AB4D0064236F /* RegisterVC.swift */; };
+		FF71365E2572AC890064236F /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF71365D2572AC890064236F /* Authentication.swift */; };
+		FFEB0CFE2573CB3B005F91E8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB0CFD2573CB3B005F91E8 /* HomeVC.swift */; };
+		FFEB0D032573D101005F91E8 /* DataTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB0D022573D101005F91E8 /* DataTVC.swift */; };
+		FFEB0D1C2573D4EC005F91E8 /* FirebaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB0D1B2573D4EC005F91E8 /* FirebaseData.swift */; };
+		FFEB0D212573DA3F005F91E8 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEB0D202573DA3F005F91E8 /* ErrorMessage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7136092572A0E50064236F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7135EA2572A0E10064236F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7135F12572A0E10064236F;
+			remoteInfo = AdvanceDB;
+		};
+		FF7136142572A0E50064236F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7135EA2572A0E10064236F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7135F12572A0E10064236F;
+			remoteInfo = AdvanceDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		245C9FA18CF97726C6E7145E /* Pods_AdvanceDB_AdvanceDBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceDB_AdvanceDBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35AE3369A2B0C1D3008F80E4 /* Pods-AdvanceDB-AdvanceDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceDB-AdvanceDBUITests.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceDB-AdvanceDBUITests/Pods-AdvanceDB-AdvanceDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		374E2B92D4F372537C8EA706 /* Pods_AdvanceDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7309D8026F4775E41780C311 /* Pods-AdvanceDB-AdvanceDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceDB-AdvanceDBUITests.release.xcconfig"; path = "Target Support Files/Pods-AdvanceDB-AdvanceDBUITests/Pods-AdvanceDB-AdvanceDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C32A873B6D89F652F94DEDA /* Pods-AdvanceDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceDB.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceDB/Pods-AdvanceDB.debug.xcconfig"; sourceTree = "<group>"; };
+		90AC2A3D9A68EEE62688C6A7 /* Pods-AdvanceDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceDBTests.debug.xcconfig"; path = "Target Support Files/Pods-AdvanceDBTests/Pods-AdvanceDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A231695D447D28714E4304B9 /* Pods-AdvanceDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceDB.release.xcconfig"; path = "Target Support Files/Pods-AdvanceDB/Pods-AdvanceDB.release.xcconfig"; sourceTree = "<group>"; };
+		A4E0083843F35D92FAFAFBF4 /* Pods-AdvanceDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvanceDBTests.release.xcconfig"; path = "Target Support Files/Pods-AdvanceDBTests/Pods-AdvanceDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7E3AC7E13234A9EF0E3EFF7 /* Pods_AdvanceDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdvanceDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7135F22572A0E10064236F /* AdvanceDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvanceDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7135F52572A0E10064236F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF7135F72572A0E10064236F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF7135F92572A0E10064236F /* DecidePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecidePage.swift; sourceTree = "<group>"; };
+		FF7135FC2572A0E10064236F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF7135FE2572A0E50064236F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF7136012572A0E50064236F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF7136032572A0E50064236F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7136082572A0E50064236F /* AdvanceDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF71360C2572A0E50064236F /* AdvanceDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceDBTests.swift; sourceTree = "<group>"; };
+		FF71360E2572A0E50064236F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7136132572A0E50064236F /* AdvanceDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvanceDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7136172572A0E50064236F /* AdvanceDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceDBUITests.swift; sourceTree = "<group>"; };
+		FF7136192572A0E50064236F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7136282572A1620064236F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF71364B2572AB3B0064236F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FF7136502572AB4D0064236F /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		FF71365D2572AC890064236F /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		FFEB0CFD2573CB3B005F91E8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FFEB0D022573D101005F91E8 /* DataTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTVC.swift; sourceTree = "<group>"; };
+		FFEB0D1B2573D4EC005F91E8 /* FirebaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseData.swift; sourceTree = "<group>"; };
+		FFEB0D202573DA3F005F91E8 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF7135EF2572A0E10064236F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BDC5AB4550F0904EC65275 /* Pods_AdvanceDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7136052572A0E50064236F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AA7AB0B6747ED7E8C15564 /* Pods_AdvanceDBTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7136102572A0E50064236F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E873528482990CDC149A8A /* Pods_AdvanceDB_AdvanceDBUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3498EF60AAAC9B3CA4BE8645 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374E2B92D4F372537C8EA706 /* Pods_AdvanceDB.framework */,
+				245C9FA18CF97726C6E7145E /* Pods_AdvanceDB_AdvanceDBUITests.framework */,
+				D7E3AC7E13234A9EF0E3EFF7 /* Pods_AdvanceDBTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97A61C80E1994EC9C0AF5ABA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C32A873B6D89F652F94DEDA /* Pods-AdvanceDB.debug.xcconfig */,
+				A231695D447D28714E4304B9 /* Pods-AdvanceDB.release.xcconfig */,
+				35AE3369A2B0C1D3008F80E4 /* Pods-AdvanceDB-AdvanceDBUITests.debug.xcconfig */,
+				7309D8026F4775E41780C311 /* Pods-AdvanceDB-AdvanceDBUITests.release.xcconfig */,
+				90AC2A3D9A68EEE62688C6A7 /* Pods-AdvanceDBTests.debug.xcconfig */,
+				A4E0083843F35D92FAFAFBF4 /* Pods-AdvanceDBTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF7135E92572A0E10064236F = {
+			isa = PBXGroup;
+			children = (
+				FF7135F42572A0E10064236F /* AdvanceDB */,
+				FF71360B2572A0E50064236F /* AdvanceDBTests */,
+				FF7136162572A0E50064236F /* AdvanceDBUITests */,
+				FF7135F32572A0E10064236F /* Products */,
+				97A61C80E1994EC9C0AF5ABA /* Pods */,
+				3498EF60AAAC9B3CA4BE8645 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7135F32572A0E10064236F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7135F22572A0E10064236F /* AdvanceDB.app */,
+				FF7136082572A0E50064236F /* AdvanceDBTests.xctest */,
+				FF7136132572A0E50064236F /* AdvanceDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7135F42572A0E10064236F /* AdvanceDB */ = {
+			isa = PBXGroup;
+			children = (
+				FF7135F52572A0E10064236F /* AppDelegate.swift */,
+				FF7135F72572A0E10064236F /* SceneDelegate.swift */,
+				FF7135F92572A0E10064236F /* DecidePage.swift */,
+				FF7136282572A1620064236F /* GoogleService-Info.plist */,
+				FF7135FB2572A0E10064236F /* Main.storyboard */,
+				FF7135FE2572A0E50064236F /* Assets.xcassets */,
+				FF7136002572A0E50064236F /* LaunchScreen.storyboard */,
+				FF7136032572A0E50064236F /* Info.plist */,
+				FF71364B2572AB3B0064236F /* LoginVC.swift */,
+				FF7136502572AB4D0064236F /* RegisterVC.swift */,
+				FF71365D2572AC890064236F /* Authentication.swift */,
+				FFEB0CFD2573CB3B005F91E8 /* HomeVC.swift */,
+				FFEB0D022573D101005F91E8 /* DataTVC.swift */,
+				FFEB0D1B2573D4EC005F91E8 /* FirebaseData.swift */,
+				FFEB0D202573DA3F005F91E8 /* ErrorMessage.swift */,
+			);
+			path = AdvanceDB;
+			sourceTree = "<group>";
+		};
+		FF71360B2572A0E50064236F /* AdvanceDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF71360C2572A0E50064236F /* AdvanceDBTests.swift */,
+				FF71360E2572A0E50064236F /* Info.plist */,
+			);
+			path = AdvanceDBTests;
+			sourceTree = "<group>";
+		};
+		FF7136162572A0E50064236F /* AdvanceDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7136172572A0E50064236F /* AdvanceDBUITests.swift */,
+				FF7136192572A0E50064236F /* Info.plist */,
+			);
+			path = AdvanceDBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF7135F12572A0E10064236F /* AdvanceDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF71361C2572A0E50064236F /* Build configuration list for PBXNativeTarget "AdvanceDB" */;
+			buildPhases = (
+				A885EDDC2B96D8EEBEC4292E /* [CP] Check Pods Manifest.lock */,
+				FF7135EE2572A0E10064236F /* Sources */,
+				FF7135EF2572A0E10064236F /* Frameworks */,
+				FF7135F02572A0E10064236F /* Resources */,
+				CCD53EA1214D81365A540A66 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvanceDB;
+			productName = AdvanceDB;
+			productReference = FF7135F22572A0E10064236F /* AdvanceDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF7136072572A0E50064236F /* AdvanceDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF71361F2572A0E50064236F /* Build configuration list for PBXNativeTarget "AdvanceDBTests" */;
+			buildPhases = (
+				12803768EA7209E90513FF6B /* [CP] Check Pods Manifest.lock */,
+				FF7136042572A0E50064236F /* Sources */,
+				FF7136052572A0E50064236F /* Frameworks */,
+				FF7136062572A0E50064236F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF71360A2572A0E50064236F /* PBXTargetDependency */,
+			);
+			name = AdvanceDBTests;
+			productName = AdvanceDBTests;
+			productReference = FF7136082572A0E50064236F /* AdvanceDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF7136122572A0E50064236F /* AdvanceDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7136222572A0E50064236F /* Build configuration list for PBXNativeTarget "AdvanceDBUITests" */;
+			buildPhases = (
+				CCA0DEB298E916FFB38E77F5 /* [CP] Check Pods Manifest.lock */,
+				FF71360F2572A0E50064236F /* Sources */,
+				FF7136102572A0E50064236F /* Frameworks */,
+				FF7136112572A0E50064236F /* Resources */,
+				46AAA2ABDAA235AA000544ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7136152572A0E50064236F /* PBXTargetDependency */,
+			);
+			name = AdvanceDBUITests;
+			productName = AdvanceDBUITests;
+			productReference = FF7136132572A0E50064236F /* AdvanceDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7135EA2572A0E10064236F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FF7135F12572A0E10064236F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FF7136072572A0E50064236F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FF7135F12572A0E10064236F;
+					};
+					FF7136122572A0E50064236F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FF7135F12572A0E10064236F;
+					};
+				};
+			};
+			buildConfigurationList = FF7135ED2572A0E10064236F /* Build configuration list for PBXProject "AdvanceDB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF7135E92572A0E10064236F;
+			productRefGroup = FF7135F32572A0E10064236F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7135F12572A0E10064236F /* AdvanceDB */,
+				FF7136072572A0E50064236F /* AdvanceDBTests */,
+				FF7136122572A0E50064236F /* AdvanceDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF7135F02572A0E10064236F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7136022572A0E50064236F /* LaunchScreen.storyboard in Resources */,
+				FF7135FF2572A0E50064236F /* Assets.xcassets in Resources */,
+				FF7135FD2572A0E10064236F /* Main.storyboard in Resources */,
+				FF7136292572A1620064236F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7136062572A0E50064236F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7136112572A0E50064236F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12803768EA7209E90513FF6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AAA2ABDAA235AA000544ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceDB-AdvanceDBUITests/Pods-AdvanceDB-AdvanceDBUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceDB-AdvanceDBUITests/Pods-AdvanceDB-AdvanceDBUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdvanceDB-AdvanceDBUITests/Pods-AdvanceDB-AdvanceDBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A885EDDC2B96D8EEBEC4292E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA0DEB298E916FFB38E77F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdvanceDB-AdvanceDBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCD53EA1214D81365A540A66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceDB/Pods-AdvanceDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdvanceDB/Pods-AdvanceDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdvanceDB/Pods-AdvanceDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF7135EE2572A0E10064236F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF71365E2572AC890064236F /* Authentication.swift in Sources */,
+				FFEB0CFE2573CB3B005F91E8 /* HomeVC.swift in Sources */,
+				FFEB0D212573DA3F005F91E8 /* ErrorMessage.swift in Sources */,
+				FF7135FA2572A0E10064236F /* DecidePage.swift in Sources */,
+				FF7135F62572A0E10064236F /* AppDelegate.swift in Sources */,
+				FF71364C2572AB3B0064236F /* LoginVC.swift in Sources */,
+				FF7135F82572A0E10064236F /* SceneDelegate.swift in Sources */,
+				FF7136512572AB4D0064236F /* RegisterVC.swift in Sources */,
+				FFEB0D032573D101005F91E8 /* DataTVC.swift in Sources */,
+				FFEB0D1C2573D4EC005F91E8 /* FirebaseData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7136042572A0E50064236F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF71360D2572A0E50064236F /* AdvanceDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF71360F2572A0E50064236F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7136182572A0E50064236F /* AdvanceDBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF71360A2572A0E50064236F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7135F12572A0E10064236F /* AdvanceDB */;
+			targetProxy = FF7136092572A0E50064236F /* PBXContainerItemProxy */;
+		};
+		FF7136152572A0E50064236F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7135F12572A0E10064236F /* AdvanceDB */;
+			targetProxy = FF7136142572A0E50064236F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF7135FB2572A0E10064236F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7135FC2572A0E10064236F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF7136002572A0E50064236F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF7136012572A0E50064236F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF71361A2572A0E50064236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF71361B2572A0E50064236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF71361D2572A0E50064236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C32A873B6D89F652F94DEDA /* Pods-AdvanceDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = AdvanceDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.AdvanceDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF71361E2572A0E50064236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A231695D447D28714E4304B9 /* Pods-AdvanceDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = AdvanceDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.AdvanceDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF7136202572A0E50064236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AC2A3D9A68EEE62688C6A7 /* Pods-AdvanceDBTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = AdvanceDBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.AdvanceDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvanceDB.app/AdvanceDB";
+			};
+			name = Debug;
+		};
+		FF7136212572A0E50064236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E0083843F35D92FAFAFBF4 /* Pods-AdvanceDBTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = AdvanceDBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.AdvanceDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvanceDB.app/AdvanceDB";
+			};
+			name = Release;
+		};
+		FF7136232572A0E50064236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AE3369A2B0C1D3008F80E4 /* Pods-AdvanceDB-AdvanceDBUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = AdvanceDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.AdvanceDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvanceDB;
+			};
+			name = Debug;
+		};
+		FF7136242572A0E50064236F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7309D8026F4775E41780C311 /* Pods-AdvanceDB-AdvanceDBUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7UX8XH97N;
+				INFOPLIST_FILE = AdvanceDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alidhanani.AdvanceDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvanceDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF7135ED2572A0E10064236F /* Build configuration list for PBXProject "AdvanceDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF71361A2572A0E50064236F /* Debug */,
+				FF71361B2572A0E50064236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF71361C2572A0E50064236F /* Build configuration list for PBXNativeTarget "AdvanceDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF71361D2572A0E50064236F /* Debug */,
+				FF71361E2572A0E50064236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF71361F2572A0E50064236F /* Build configuration list for PBXNativeTarget "AdvanceDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7136202572A0E50064236F /* Debug */,
+				FF7136212572A0E50064236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7136222572A0E50064236F /* Build configuration list for PBXNativeTarget "AdvanceDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7136232572A0E50064236F /* Debug */,
+				FF7136242572A0E50064236F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7135EA2572A0E10064236F /* Project object */;
+}

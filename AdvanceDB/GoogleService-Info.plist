@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>512602283931-ffk9q011p8b5v1911tdq31u9qndc0o21.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.512602283931-ffk9q011p8b5v1911tdq31u9qndc0o21</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBCaFq7GWaNgWwoSH8C4lrxHmlR93tRgCc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>512602283931</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alidhanani.AdvanceDB</string>
+	<key>PROJECT_ID</key>
+	<string>advancedb-723d5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>advancedb-723d5.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:512602283931:ios:d93c9d85a7d9c17bd6cb3e</string>
+	<key>DATABASE_URL</key>
+	<string>https://advancedb-723d5.firebaseio.com</string>
+</dict>
+</plist>
